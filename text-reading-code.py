@@ -1,2 +1,6 @@
+
 f = open('text.txt','r')
-print(f.read())
+data = f.readlines()
+#print(data)
+for n in data:
+    print(n) 
