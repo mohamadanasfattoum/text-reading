@@ -1,8 +1,9 @@
+# python append to file specific line
 f = open('text2.txt','r')
 data = f.readlines()
 f.close()
 
-data.insert(0,' Hallo Anas \n')
+data.insert(0,'Hallo Anas\n')
 print(data)
 
 
